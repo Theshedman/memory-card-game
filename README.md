@@ -13,7 +13,7 @@
 * [License](#license)
 
 ## Instructions
-Memory card game  (or as many would call it, Concentration) is a one-player game. [Please follow this **[link](https://theshedman.github.io/)** to visit the github page for the **Memory Card Game**]. The player tries to concentrate much as s/he flips some cards to match them against each other. The detailed instruction is as below:
+Memory card game  (or as many would call it, Concentration) is a one-player game. [Please follow this **[link](https://theshedman.github.io/memory-card-game/)** to visit the github page for the **Memory Card Game**]. The player tries to concentrate much as s/he flips some cards to match them against each other. The detailed instruction is as below:
 
 * The player clicks on a card to open it.
 * A *timer* will start immediately after the first card is flipped to keep track of the total time it takes the player to complete the game.

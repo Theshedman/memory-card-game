@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <title>Memory Card Game | Concentration</title>
+  </head>
+
+  <body>
+    <!--The overall game container-->
+    <div class="wrapper">
+
+      <!--section for the game header-->
+      <header>
+        <h1 title="Memory Card Game">Memory Card Game | Concentration</h1>
+      </header>
+
+      <!--general section for the game info-->
+      <div class="info">
+
+        <!--timer-->
+        <div class="timer fas fa-clock" title="Timer/Stopwatch">
+          <span id="time">00:00:00</span>
+        </div>
+
+        <!--section for stars and move counter -->
+        <div class="stars">
+
+          <!--stars-->
+          <div id="starWrapper" title="star rating points">
+            <span class="star 1 fas fa-star"></span>
+            <span class="star 2 fas fa-star"></span>
+            <span class="star 3 fas fa-star"></span>
+            <span class="star 4 fas fa-star"></span>
+            <span class="star 5 fas fa-star"></span>
+          </div>
+
+          <!--move counter-->
+          <div class="progress" title="Number of moves">
+            <span class="moves">0</span>Move(s)
+          </div>
+        </div>
+
+        <!--Reset section-->
+        <div class="reset" title="Reset Game">
+          <i class="fas fa-undo-alt"></i>
+        </div>
+      </div>
+
+      <!--card section-->
+      <div id="card-wrapper">
+        <div class="card" data-card="volleyball">
+          <i class="fas fa-volleyball-ball"></i>
+        </div>
+
+        <div class="card" data-card="user-secret">
+          <i class="fas fa-user-secret"></i>
+        </div>
+
+        <div class="card" data-card="birthday-cake">
+          <i class="fas fa-birthday-cake"></i>
+        </div>
+
+        <div class="card" data-card="car">
+          <i class="fas fa-car"></i>
+        </div>
+
+        <div class="card" data-card="laptop-code">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+
+        <div class="card" data-card="wolf-battalion">
+          <i class="fab fa-wolf-pack-battalion"></i>
+        </div>
+
+        <div class="card" data-card="volleyball">
+          <i class="fas fa-volleyball-ball"></i>
+        </div>
+
+        <div class="card" data-card="birthday-cake">
+          <i class="fas fa-birthday-cake"></i>
+        </div>
+
+        <div class="card" data-card="car">
+          <i class="fas fa-car"></i>
+        </div>
+
+        <div class="card" data-card="bicycle">
+          <i class="fas fa-bicycle"></i>
+        </div>
+
+        <div class="card" data-card="wolf-battalion">
+          <i class="fab fa-wolf-pack-battalion"></i>
+        </div>
+
+        <div class="card" data-card="user-secret">
+          <i class="fas fa-user-secret"></i>
+        </div>
+
+        <div class="card" data-card="theater-masks">
+          <i class="fas fa-theater-masks"></i>
+        </div>
+
+        <div class="card" data-card="bicycle">
+          <i class="fas fa-bicycle"></i>
+        </div>
+
+        <div class="card" data-card="theater-masks">
+          <i class="fas fa-theater-masks"></i>
+        </div>
+
+        <div class="card" data-card="laptop-code">
+          <i class="fas fa-laptop-code"></i>
+        </div>
+      </div>
+
+      <!--Modal/overlay section-->
+      <div id="modal" class="modal modal-hide">
+
+        <!--overlay header-->
+        <div class="modal-container">
+          <header class="modal-header">
+            <h2 class="modal-heading">Congratulations!</h2>
+            <span class="closeBtn">
+              <a href="#">&times;</a>
+            </span>
+          </header>
+
+          <!--overlay main content-->
+          <main class="modal-content">
+            <p>Wow. You did a great job. Thank you so much for taking out your time to play the Memory Card Game. Your summary
+              is as below:</p>
+
+            <!--overlay main content summary section-->
+            <div id="summary">
+              <div id="totalTimeContainer">
+                <i id="totalTime" class="fas fa-clock"></i></div>
+              <div id="totalMoves"></div>
+              <div id="remainingStars"></div>
+            </div>
+
+            <p>Would you like to play the game again? click the 'Play again' button to enjoy yourself once more. You can click
+              on the 'No, thank you' button to exit game.</p>
+
+            <!--overlay buttons-->
+            <div class="modal-btn">
+              <button class="modal-play-btn">Play Again</button>
+              <button class="modal-doc-btn">Documentation</button>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <!--js source code link here-->
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

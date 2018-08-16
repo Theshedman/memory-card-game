@@ -70,7 +70,7 @@ memoryCardGame
   ```
 
 ## Dependencies
-In as much as I really tried to avoid using frameworks, I couldn't escape [FontAwesome](https://fontawesome.com/). All the I mages I used for the Memory card game are totally from them and so my game wholly depend on the [FontAwesome](https://fontawesome.com/)
+In as much as I really tried to avoid using frameworks, I couldn't escape [FontAwesome](https://fontawesome.com/). All the images I used for the Memory card game are totally from them and so my game wholly depend on the [FontAwesome](https://fontawesome.com/)
 
 ## Experience
 I gained a lot of experience during the memory card game project. Not only do I learnt how to manipulate the DOM with Javascript but I also have the feeling that I can now build an interactive web page, and a game at that. There is this feeling of achievement and gladness that overwhelms my heart, The feeling that I have been look for long time. I can now gladly pick up a static sweb age and make it dynamic using lessons I learned during the project.

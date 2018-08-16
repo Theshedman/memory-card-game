@@ -166,6 +166,7 @@ header {
   grid-row: 3 / -1;
   justify-self: center;
   width: 65%;
+  height: 95%;
   display: grid;
   grid-template-columns: repeat(4, minmax(3em, 150px));
   grid-gap: 15px;

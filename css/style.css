@@ -204,6 +204,8 @@ header {
 @media screen and (max-width: 780px) {
   #card-wrapper {
     width: 82%;
+  }
+  .card {
     max-height: 75%;
   }
   #summary {
@@ -212,9 +214,10 @@ header {
 }
 
 @media screen and (max-width: 680px) {
-  #card-wrapper {
+  .card {
     max-height: 79%;
   }
+  
   header h1 {
     font-size: 1.8em;
     padding-top: 1.5px;
@@ -222,7 +225,7 @@ header {
 }
 
 @media screen and (max-width: 620px) {
-  #card-wrapper {
+ .card {
     max-height: 70%;
   }
 }
@@ -230,8 +233,12 @@ header {
 @media screen and (max-width: 580px) {
   #card-wrapper {
     width: 85%;
+  }
+  
+  .card {
     max-height: 70%;
   }
+  
   header h1 {
     font-size: 1.5em;
     padding-top: 1.5px;
@@ -241,8 +248,12 @@ header {
 @media screen and (max-width: 531px) {
   #card-wrapper {
     width: 90%;
+  }
+  
+  .card {
     max-height: 45%;
   }
+  
   .reset {
     margin-left: 25px;
   }
@@ -251,8 +262,12 @@ header {
 @media screen and (max-width: 450px) {
   #card-wrapper {
     width: 100%;
+  }
+  
+  .card {
     max-height: 38%;
   }
+  
   header h1 {
     font-size: 1em;
     padding-top: 12px;

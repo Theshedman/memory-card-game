@@ -304,7 +304,7 @@ docBtn.addEventListener('click', documentation, false);
  */
 function documentation() {
     const repository = `https://github.com/Theshedman/memory-card-game`
-    windows.location.assign(repository);
+    window.location.assign(repository);
 }
 
 /**

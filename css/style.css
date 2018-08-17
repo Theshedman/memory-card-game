@@ -176,7 +176,7 @@ header {
   -webkit-box-shadow: 3px -5px 3px rgba(0, 0, 0, 0.25), 3px 5px 2px rgba(0, 0, 0, 0.25), -3px 3px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 3px -5px 3px rgba(0, 0, 0, 0.25), 3px 5px 2px rgba(0, 0, 0, 0.25), -3px 3px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 25px;
-  padding: 30px 30px 45px 30px;
+  padding: 35px;
   border-radius: 14px;
 }
 
@@ -206,6 +206,7 @@ header {
   #card-wrapper {
     width: 82%;
     max-height: 75%;
+    padding-bottom: 85px
   }
   #summary {
     min-width: 65%;
@@ -245,6 +246,7 @@ header {
   #card-wrapper {
     width: 90%;
     max-height: 45%;
+    padding-bottom: 145px;
   }
   
   .reset {

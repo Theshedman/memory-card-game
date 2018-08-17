@@ -205,8 +205,6 @@ header {
 @media screen and (max-width: 780px) {
   #card-wrapper {
     width: 82%;
-  }
-  .card {
     max-height: 75%;
   }
   #summary {
@@ -215,7 +213,7 @@ header {
 }
 
 @media screen and (max-width: 680px) {
-  .card {
+ #card-wrapper {
     max-height: 79%;
   }
   
@@ -226,7 +224,7 @@ header {
 }
 
 @media screen and (max-width: 620px) {
- .card {
+ #card-wrapper {
     max-height: 70%;
   }
 }
@@ -234,9 +232,6 @@ header {
 @media screen and (max-width: 580px) {
   #card-wrapper {
     width: 85%;
-  }
-  
-  .card {
     max-height: 70%;
   }
   
@@ -249,9 +244,6 @@ header {
 @media screen and (max-width: 531px) {
   #card-wrapper {
     width: 90%;
-  }
-  
-  .card {
     max-height: 45%;
   }
   
@@ -263,9 +255,6 @@ header {
 @media screen and (max-width: 450px) {
   #card-wrapper {
     width: 100%;
-  }
-  
-  .card {
     max-height: 38%;
   }
   

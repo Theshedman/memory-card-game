@@ -259,7 +259,7 @@ header {
 
 @media screen and (max-width: 450px) {
   #card-wrapper {
-    width: 100%;
+    width: 98%;
     max-height: 95%;
   }
 
